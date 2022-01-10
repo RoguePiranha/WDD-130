@@ -1,0 +1,54 @@
+body {
+    max-width: 1080px;
+    margin: auto;
+    margin-bottom:100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.column {
+    display: table;
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+    display: table-cell;
+}
+
+.card {
+    box-shadow: 0 2px 4px 0px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    padding:10px;
+    height:min-content;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: auto;
+    background-color: #fafafa;
+}
+
+@media screen and (max-width: 600px) {
+.column {
+    width: 90vw;
+    margin:auto;
+    float: middle;
+}
+.card{
+    margin-bottom:20px;
+}
+.center {
+    width: 60%;
+}
+}
