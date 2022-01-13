@@ -108,6 +108,11 @@ nav {
   text-align: center;
   font-size: 1.2em;
 }
+.border-gradient {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #5eadbd, transparent);
+}
 nav  {
   list-style-type: none;
   display: flex;
@@ -124,6 +129,13 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+  text-decoration: underline;
+  text-decoration-color: #f6db4b;
+  -o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  transition:.4s;
 }
 .sitemap {
   display: grid;
