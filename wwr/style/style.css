@@ -61,6 +61,9 @@ main section{
     position: relative;
     margin: 10px 15px 15px 10px;
 }
+.icon {
+  width: 80px;
+}
 
 nav {
   background-color: var(--nav-background-color);
