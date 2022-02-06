@@ -10,10 +10,14 @@
   --heading-font: 'Timmana';
   --paragraph-font: Montserrat, Lato, Helvetica, sans-serif;
 
-  --headline-color-on-white: #2c3236; /* headlines on a white background */ 
-  --headline-color-on-color: #2c3236; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #2c3236; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #2c3236; /* paragraph text on a colored background */ 
+  --headline-color-on-white: #2c3236;
+  /* headlines on a white background */
+  --headline-color-on-color: #2c3236;
+  /* headlines on a colored background */
+  --paragraph-color-on-white: #2c3236;
+  /* paragraph text on a white background */
+  --paragraph-color-on-color: #2c3236;
+  /* paragraph text on a colored background */
   --paragraph-background-color: #5eadbd;
   --nav-link-color: #5eadbd;
   --nav-background-color: #ffffff;
@@ -21,48 +25,63 @@
   --nav-hover-background-color: #ffffff;
 }
 
-*{
-    border: 0;
-    padding: 0;
-    margin: 0;
-    }
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
 
 body {
-  padding-bottom: 4em;
   font-size: 18px;
   background-color: var(--accent2-color);
+  margin: 0;
+  padding: 0 0 4em 0;
 }
-#content{
+
+#hero, #hero-box, #hero-img {
+  max-width: 1920px!important;
+}
+
+#content {
   max-width: 1600px;
   margin: 0 auto;
   text-align: center;
 }
-nav a{
+
+nav a {
   text-align: center;
   color: var(--nav-link-color);
   transition: .4s;
+  padding: 35px;
 }
-#hero-msg h1, #hero-msg h4{
+
+#hero-msg h1,
+#hero-msg h4 {
   text-align: center;
 }
-.button-box{
+
+.button-box {
   text-align: center;
 }
-main section{
+
+main section {
   text-align: center;
 }
-#main-header{
-    width: 100%;
-    display: inline;
-    align-content: middle;
+
+#main-header {
+  width: 100%;
+  display: inline;
 }
-.header-logo{
-    float: left;
-    position: relative;
-    margin: 10px 15px 15px 10px;
+
+.header-logo {
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
 }
+
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 nav {
@@ -76,76 +95,125 @@ nav {
   justify-content: left;
   height: 80px;
 }
+
 nav ul {
   margin: auto 0 10px 0;
 }
-nav ul li{
-    display: inline-block;
-    list-style-type: none;
-    vertical-align: middle;
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: middle;
 }
+
 .border-gradient {
   border-bottom: 5px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, #5eadbd, transparent);
 }
+
 nav a {
-  padding:1em;
+  padding: 1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
   color: var(--nav-link-color);
 }
-nav a:link, nav a:visited {
+
+nav a:link,
+nav a:visited {
   color: var(--nav-link-color);
 }
+
 nav a:hover {
   color: var(--nav-hover-link-color);
 }
+
 .social img {
   display: inline;
+  padding-top: 15px;
 }
+
 #background {
   height: 725px;
   background-color: var(--accent3-color);
 }
+
 header {
   background-color: var(--accent2-color);
 }
-.book, .join {
+
+.book,
+.join {
   background-color: var(--accent2-color);
   color: var(--paragraph-color-on-white);
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
-.book:hover, .join:hover {
+
+.book:hover,
+.join:hover {
   background-color: var(--accent2-color);
 }
+
 .msg {
   background-color: var(--accent2-color);
+  line-height: 1.5em;
+  padding: 35px;
 }
+
 footer {
   background-color: var(--accent2-color);
+  margin-top: 200px;
 }
+
 .home-title {
   color: var(--headline-color-on-white);
+  font-size: 18px;
+  margin-top: 10px;
 }
+
 h4 {
   color: var(--paragraph-color-on-white);
 }
+
 .msg h2 {
   color: var(--header-color-on-white);
 }
-.msg p {
-  color: var(--paragraph-color-on-white);
+
+h2 {
+  margin: 0;
 }
+
+.msg p {
+  font-size: 18px;
+  color: var(--paragraph-color-on-white);
+  padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
+}
+
 footer h3 {
   color: var(--header-color-on-white);
   text-decoration: underline;
 }
+
 footer a {
   color: var(--nav-link-color);
   text-decoration: none;
+  padding: 25px 50px;
 }
+
 footer a:hover {
- color: var(--nav-hover-link-color);
+  color: var(--nav-hover-link-color);
 }
