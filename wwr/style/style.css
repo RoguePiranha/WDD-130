@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Timmana|Permanent+Marker|Montserrat|Lato');
+@import url('https://fonts.googleapis.com/css?family=Timmana|Permanent+Marker|Didact+Gothic|Montserrat|Lato');
 
 :root {
   --primary-color: #5eadbd;
@@ -7,17 +7,13 @@
   --accent3-color: #D5EAEE;
   --accent2-color: #ffffff;
 
-  --heading-font: 'Timmana';
+  --heading-font: 'Timmana', 'Didact Gothic', Arial;
   --paragraph-font: Montserrat, Lato, Helvetica, sans-serif;
 
   --headline-color-on-white: #2c3236;
-  /* headlines on a white background */
   --headline-color-on-color: #2c3236;
-  /* headlines on a colored background */
   --paragraph-color-on-white: #2c3236;
-  /* paragraph text on a white background */
   --paragraph-color-on-color: #2c3236;
-  /* paragraph text on a colored background */
   --paragraph-background-color: #5eadbd;
   --nav-link-color: #5eadbd;
   --nav-background-color: #ffffff;
@@ -29,6 +25,14 @@
   border: 0;
   padding: 0;
   margin: 0;
+}
+h1 {
+  font-family: 'Permanent Marker', 'Timmana', Arial;
+  color: var(--headline-color-on-white);
+}
+h2, h3, h4, h5, h6 {
+font-family: var(--heading-font);
+color: var(--headline-color-on-white);
 }
 
 body {
@@ -172,8 +176,15 @@ footer {
 
 .home-title {
   color: var(--headline-color-on-white);
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 10px;
+}
+
+.button-box {
+  width: fit-content;
+  background-color: #5eadbd;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 h4 {
