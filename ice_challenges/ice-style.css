@@ -1,0 +1,58 @@
+html {
+    text-align: center;
+  }
+body {
+    background-color: rgb(243, 162, 189);
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: .9em;
+}
+img {
+    max-width: 150px;
+    margin-bottom: 30px;
+}
+.white-top {
+    color: white;
+}
+.credit {
+    font-weight: 700;
+}
+ol {
+    text-align: left;
+}
+.quoted-text {
+    max-width: 55%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+ol li {
+    margin-bottom: 6px;
+    font-weight: 900;
+    font-size: .75em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: .75em;
+}
+#hover-header:hover{
+    color: black;
+}
+#hover-header{
+    transition: color .5s ease-in-out;
+    cursor: default;
+}

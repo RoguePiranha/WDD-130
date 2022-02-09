@@ -27,7 +27,7 @@
   margin: 0;
 }
 h1 {
-  font-family: 'Permanent Marker', 'Timmana', Arial;
+  font-family: 'Permanent Marker', 'Timmana', Arial, sans-serif;
   color: var(--headline-color-on-white);
 }
 h2, h3, h4, h5, h6 {
@@ -75,11 +75,11 @@ main section {
 #main-header {
   width: 100%;
   display: inline;
+  position: fixed;
 }
 
 .header-logo {
   float: left;
-  position: relative;
   margin: 10px 15px 15px 10px;
 }
 
