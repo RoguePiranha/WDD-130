@@ -192,6 +192,7 @@ header {
 }
 
 .msg {
+  font-family: var(--heading-font);
   background-color: var(--accent2-color);
   line-height: 1.5em;
   padding: 35px;
