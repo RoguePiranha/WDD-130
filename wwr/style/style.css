@@ -331,7 +331,9 @@ footer a:hover {
 
   nav,
   footer {
+    display: flex;
     flex-direction: column;
+    height: auto;
   }
 
   nav a {
