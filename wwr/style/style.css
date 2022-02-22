@@ -156,7 +156,6 @@ nav a:hover {
 }
 
 .social img {
-  display: inline;
   padding-top: 15px;
 }
 
@@ -307,7 +306,6 @@ footer h3 {
 footer a {
   color: var(--nav-link-color);
   text-decoration: none;
-  padding: 25px 50px;
   transition: .4s;
 }
 
