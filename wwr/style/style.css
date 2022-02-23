@@ -180,13 +180,16 @@ header {
   text-decoration: none;
   padding: 15px 30px 10px 30px;
   border-radius: 5px;
-  transition: .5s;
+  transition: .3s ease-in-out;
   box-shadow: 2px 2px 6px black;
+  font-size: 24px;
+  margin-top: 10px;
 }
 
 .book:hover,
 .join:hover {
-  background-color: var(--accent3-color);
+  background-color: #fff7cc;
+  box-shadow: 4px 4px 8px rgb(70, 70, 70);
 }
 
 .msg {
@@ -206,16 +209,19 @@ footer {
 }
 
 .home-title {
-  color: #D5EAEE;
-  font-size: 36px;
+  color: #f6db4b;
+  font-size: 54px;
   margin-top: 10px;
+}
+
+.sub-title{
+  font-size: 24px;
 }
 
 .button-box {
   width: fit-content;
-  background: #5eadbd;
   margin: 0 auto;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 h4 {
@@ -234,6 +240,7 @@ h2 {
   font-size: 18px;
   color: var(--paragraph-color-on-white);
   padding-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .rivers-card,
@@ -300,7 +307,6 @@ main section img {
 
 footer h3 {
   color: var(--header-color-on-white);
-  text-decoration: underline;
 }
 
 footer a {
