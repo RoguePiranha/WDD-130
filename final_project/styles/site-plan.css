@@ -178,3 +178,14 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.home-img img{
+  max-width: 30%;
+}
+
+.site-img img{
+  max-width: 30%;
+  display: inline;
+  border: 1px solid black;
+  margin: 4px;
+}
