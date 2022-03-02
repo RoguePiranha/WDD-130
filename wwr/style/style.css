@@ -41,6 +41,10 @@ h6 {
   color: var(--headline-color-on-white);
 }
 
+p{
+  font-family: var(--paragraph-font);
+}
+
 body {
   font-size: 18px;
   background-color: var(--accent2-color);
@@ -299,6 +303,24 @@ h2 {
   grid-column: 6/10;
   grid-row: 6/7;
   box-shadow: 2px 2px 6px #6f7364;
+}
+
+.contact-title{
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 20px 0;
+}
+
+.contact-content{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contact-p{
+  margin-top: 30px;
+  max-width: 600px;
 }
 
 main section img {
