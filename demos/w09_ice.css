@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h5{
+    color: rgb(92, 92, 177);
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    font-family: 'Roboto Slab', Times, serif;
+    display: block;
+    max-width: 300px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card-img{
+    border-radius: 15px 15px 0 0;
+}
+
+.written-content{
+    padding: 20px 30px;
+}
+.card-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(92, 92, 177);
+    column-gap: 1px;
+    color: white;
+    border-radius: 0 0 15px 15px;
+}
+
+.read{
+    grid-column: 1/2;
+    padding: 15px 0;
+}
+
+.read-top{
+    font-size: 1.2em;
+}
+.read-bottom{
+    font-size: 10px;
+}
+
+.views{
+    grid-column: 2/3;
+    padding: 15px 0;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.views-top{
+    font-size: 1.2em;
+}
+.views-bottom{
+    font-size: 10px;
+}
+
+.comments{
+    grid-column: 3/4;
+    padding: 15px 0;
+}
+
+.comments-top{
+    font-size: 1.2em;
+}
+.comments-bottom{
+    font-size: 10px;
+}
