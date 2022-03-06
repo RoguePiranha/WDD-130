@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Veloci-Rafter | White Water Rafting Tours | Contact Us</title>
 </head>
+
 <body>
     <header>
         <a href="/wdd130/wwr/index.html">
@@ -22,16 +24,52 @@
     </header>
 
     <main class="contact-page">
-        <div class="contact-title">
-            <h1>Contact Us</h1>
-        </div>
-        <section class="contact-content">
-            <div class="contact-p">
-                <p class="contact-paragraph">We'd love to hear from you! Whether you have questions or some suggestions on ways that we can improve. Please feel free to send us a message and we'll respond as soon as we are able to.</p>
+        <section class="contact-hero">
+            <img src="/wwr/img/rafting-contact.jpg" alt="people enjoying rafting on a river" class="contact-hero-img">
+            <div class="contact-title">
+                <h1>Contact Us</h1>
             </div>
-            <div class="contact-body">
-                <div class="info-box"></div>
-                <div class="contact-form"></div>
+        </section>
+
+        <section class="contact-content">
+            <div class="info-box">
+                <h2>We're Excited to Hear From You!</h2><br>
+                <p>We'd love to hear from you! Whether you have questions or some suggestions on ways that we can
+                    improve. Please feel free to send us a message and we'll respond as soon as we are able to.</p>
+                <p><br>
+                    Phone: <a href="208.555.1234">208.821.7128</a>
+                </p>
+                <br>
+                <p>
+                    Email: <a href="marketing@velocirafter.com">marketing@velocirafter.com</a>
+                </p>
+                <br>
+                <p>
+                    Hours of operation:
+                </p>
+                <br>
+                <ul>
+                    <li>Sun: CLOSED</li>
+                    <li>Mon - Fri: 7:00AM to 6:30PM</li>
+                    <li>Sat: 9:00AM to 5:00PM</li>
+                </ul>
+
+
+            </div>
+            <div class="contact-form">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject...">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
             </div>
         </section>
     </main>
@@ -53,4 +91,5 @@
         </div>
     </footer>
 </body>
+
 </html>
