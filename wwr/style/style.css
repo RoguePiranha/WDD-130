@@ -343,6 +343,7 @@ h2 {
   max-width: 1200px;
   margin: 50px auto 0 auto;
   justify-items: center;
+  padding: 0 20px;
 }
 
 input[type=text], select, textarea {
@@ -386,6 +387,7 @@ input[type=submit]:hover {
   grid-column: 1/2;
   text-align: left;
   max-width: 400px;
+  margin: 0 auto;
 }
 
 .info-box li{
