@@ -420,6 +420,7 @@ footer a:hover {
   background-color: var(--accent3-color);
   color: var(--paragraph-color-on-color);
   position: absolute;
+  font-family: var(--paragraph-font);
   top: 0;
   left: 0;
   right: 0;
