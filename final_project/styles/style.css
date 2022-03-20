@@ -1,72 +1,97 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:wght@500|Lato|Open+Sans');
 
 :root {
-  --primary-color: #3e4d5c;
-  --secondary-color: #272727;
-  --accent1-color: #F7B07D;
-  --accent2-color: #f2f2f2;
+    --primary-color: #3e4d5c;
+    --secondary-color: #272727;
+    --accent1-color: #F7B07D;
+    --accent2-color: #f2f2f2;
 
-  --heading-font: "Montserrat", sans-serif;
-  --paragraph-font: "Lato", "Open Sans", Helvetica, sans-serif;
+    --heading-font: "Montserrat", sans-serif;
+    --paragraph-font: "Lato", "Open Sans", Helvetica, sans-serif;
 
-  --headline-color-on-white: #272727;
-  --headline-color-on-color: #F7B07D;
-  --paragraph-color-on-white: #272727;
-  --paragraph-color-on-color: #f2f2f2;
-  --paragraph-background-color: #3e4d5c;
-  --nav-link-color: #F7B07D;
-  --nav-background-color: #3e4d5c;
-  --nav-hover-link-color: #f2f2f2;
-  --nav-hover-background-color: #3e4d5c;
+    --headline-color-on-white: #272727;
+    --headline-color-on-color: #F7B07D;
+    --paragraph-color-on-white: #272727;
+    --paragraph-color-on-color: #f2f2f2;
+    --paragraph-background-color: #3e4d5c;
+    --nav-link-color: #F7B07D;
+    --nav-background-color: #3e4d5c;
+    --nav-hover-link-color: #f2f2f2;
+    --nav-hover-background-color: #3e4d5c;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-body{
-    padding: 4em;
+body {
     font-size: 18px;
     text-align: center;
 }
 
-header{
-    max-width: 100%;
-    margin: 0 auto 0 0;
-    display: inline;
+header {
+    width: 100%;
+    display: inline-flex;
+    background-color: var(--nav-background-color);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-logo {
+    width: 100px;
+    margin: -10px 0px -10px 15px;
 }
 
 nav {
+    margin-left: 25px;
+    ;
     font-family: var(--heading-font);
     line-height: 2em;
     text-align: center;
     font-size: 1.2em;
     list-style-type: none;
-    height: 80px;
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    background-color: var(--nav-background-color);
-  }
-  
-  nav ul {
+    text-align: center;
+}
+
+nav ul {
     margin: auto 0 10px 0;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline-block;
     list-style-type: none;
     vertical-align: middle;
-  }
-  
-  nav a {
+}
+
+nav a {
     min-width: 120px;
     text-decoration: none;
     padding: 10px;
     color: var(--nav-link-color);
-  }
+}
 
-  nav a:hover{
-      color: var(--nav-hover-link-color);
-  }
+nav a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+#home-hero{
+    /* overflow: hidden; */
+    background-image: url("final_project/img/vscode-screenshot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+/* .hero-img{
+    visibility: hidden;
+} */
+
+.hero-title{
+
+}
