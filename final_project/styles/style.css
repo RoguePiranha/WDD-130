@@ -130,6 +130,7 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: var(--paragraph-color-on-color);
+    margin-bottom: 60px;
 }
 
 .card1{
@@ -200,7 +201,7 @@ nav a:hover {
 
 footer {
     display: flex;
-    padding: 100px 0;
+    padding: 50px 0;
     justify-content: space-evenly;
     background-color: var(--nav-background-color);
 
