@@ -92,13 +92,27 @@ nav a:hover {
     color: var(--nav-hover-link-color);
 }
 
-#home-section {
+.home-section {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-#home-hero {
+.home-section img {
+    display: block;
+}
+
+#home-hero{
     background-image: url("vscode-screenshot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.secondary-hero{
+    background-image: url("vs-code-page-2-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,6 +133,16 @@ h2 {
 .hero-title h1 {
     font-size: 3em;
     padding-bottom: 10px;
+}
+
+.secondary-hero{
+    padding-top: 200px; 
+}
+
+.secondary-hero h1 {
+    font-size: 3em;
+    padding-bottom: 10px;
+    color: var(--accent2-color);
 }
 
 .home-paragraph, .pp-paragraph {
@@ -214,7 +238,7 @@ h2 {
     display: flex;
     flex-direction: row;
     margin: 0 auto 60px auto;
-    width: 800px;
+    width: 830px;
     background-color: var(--paragraph-background-color);
     box-shadow: 4px 4px 8px black;
     transition: .4s;
@@ -238,6 +262,16 @@ h2 {
 
 article h3 {
     color: var(--headline-color-on-color);
+}
+
+article h3 a{
+    text-decoration: none;
+    color: var(--headline-color-on-color);
+    transition: .3s;
+}
+
+article h3 a:hover{
+    color: var(--nav-hover-link-color);
 }
 
 footer {
@@ -275,7 +309,7 @@ footer a:hover {
     color: var(--nav-hover-link-color);
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 840px) {
     .project-card{
         flex-direction: column;
         width: auto;
