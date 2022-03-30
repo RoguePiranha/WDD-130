@@ -101,7 +101,7 @@ nav a:hover {
     display: block;
 }
 
-#home-hero{
+#home-hero {
     background-image: url("vscode-screenshot.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -111,13 +111,23 @@ nav a:hover {
     width: 100%;
 }
 
-.secondary-hero{
+.secondary-hero {
     background-image: url("vs-code-page-2-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height: 600px;
+    width: 100%;
+}
+
+.tertiary-hero {
+    background-image: url("vs-code-laptop-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px;
     width: 100%;
 }
 
@@ -135,8 +145,8 @@ h2 {
     padding-bottom: 10px;
 }
 
-.secondary-hero{
-    padding-top: 200px; 
+.secondary-hero {
+    padding-top: 200px;
 }
 
 .secondary-hero h1 {
@@ -145,7 +155,18 @@ h2 {
     color: var(--accent2-color);
 }
 
-.home-paragraph, .pp-paragraph {
+.tertiary-hero {
+    padding-top: 120px;
+}
+
+.tertiary-hero h1 {
+    font-size: 3em;
+    padding-bottom: 10px;
+    color: var(--accent2-color);
+}
+
+.home-paragraph,
+.pp-paragraph {
     max-width: 50%;
     margin: 50px auto;
     text-align: justify;
@@ -244,15 +265,16 @@ h2 {
     transition: .4s;
     overflow: hidden;
     border-radius: 30px;
-    font-size: 1em!important;
+    font-size: 1em !important;
 
 }
 
-.project-card article{
+.project-card article {
     padding-top: 20px;
     margin: 0 auto;
 }
-.project-card article p{
+
+.project-card article p {
     padding-top: 20px;
     margin: 0 auto;
     text-align: justify;
@@ -264,13 +286,13 @@ article h3 {
     color: var(--headline-color-on-color);
 }
 
-article h3 a{
+article h3 a {
     text-decoration: none;
     color: var(--headline-color-on-color);
     transition: .3s;
 }
 
-article h3 a:hover{
+article h3 a:hover {
     color: var(--nav-hover-link-color);
 }
 
@@ -310,7 +332,7 @@ footer a:hover {
 }
 
 @media screen and (max-width: 840px) {
-    .project-card{
+    .project-card {
         flex-direction: column;
         width: auto;
         max-width: 500px;
